@@ -9,5 +9,4 @@ Este diretório contém todos os arquivos, prints e anotações do laboratório 
 - **04-analises/** → Prints e registros da análise de alertas no Kibana/Wazuh.
 - **05-relatorios/** → Relatórios finais, conclusões e aprendizados.
 
-📌 Mantenha esta documentação atualizada a cada avanço no projeto.
 
