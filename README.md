@@ -34,6 +34,14 @@ O projeto utiliza **máquinas virtuais no VirtualBox** com a seguinte arquitetur
 ---
 
 ## 📅 Etapas do Projeto
+---
+
+## 🖥️ Painel Inicial do Wazuh
+
+Abaixo está o print do painel inicial do Wazuh após a configuração:
+
+![Painel Inicial Wazuh](docs/wazuh_painel_inicial.png)
+
 1. Configuração das VMs no VirtualBox.
 2. Instalação do Ubuntu Server e configuração de rede.
 3. Instalação do Wazuh e serviços associados.
