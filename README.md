@@ -23,7 +23,14 @@ O projeto utiliza **máquinas virtuais no VirtualBox** com a seguinte arquitetur
 ### Configuração do Nome do Host - Windows 10
 O nome do computador foi configurado para `WIN10-LAB` para padronização no ambiente do SOC Lab e facilitar a identificação no Wazuh.
 
+### Ubuntu Server com Wazuh Server
+![Ubuntu Server com Wazuh Server](docs/ubuntu_server.png)
+
+### Windows com agente Wazuh
 ![Nome do host Windows 10](docs/win10_nome_host.png)
+
+### Kali Linux inicial
+![Tela inicial do Kali Linux](docs/kali_inicial.png)
 
 ---
 
