@@ -25,7 +25,7 @@ agent.name:"windows" AND win.system.eventID:4625
 MITRE ATT&CK: T1110 (Brute Force)
 
 ## Evidências
-![Eventos de falha de login no Windows](img/win_4625_events.png)
+![Eventos de falha de login no Windows](win_4625_events.png)
 
 ## Ações de resposta sugeridas
 - Configurar política de bloqueio de conta (Account Lockout Policy)
