@@ -60,7 +60,6 @@ Após a instalação e configuração, os agentes Windows e Kali aparecem como a
 ![Agentes ativos](docs/agents_ativos.png)
 > 🔒 Alguns endereços IP foram ocultados propositalmente nos prints por questões de privacidade, mantendo apenas as informações relevantes para demonstração do projeto.
 
-
 ### Primeiros eventos coletados no Kali (SSH)
 
 Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o Wazuh passou a registrar eventos de:
@@ -74,6 +73,7 @@ Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o W
 
 ## Simulações
 - [Cenário 01 — Falhas de login SSH no Kali](docs/03-simulacoes/01-ssh-falhas-kali.md)
+- [Cenário 02 — Falhas de login no Windows](docs/03-simulacoes/02-windows-falhas-login.md)
 
 ---
 
