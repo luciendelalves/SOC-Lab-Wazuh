@@ -36,7 +36,7 @@ agent.name:"kali" AND (rule.id:5712 OR rule.id:5710 OR rule.id:2502 OR rule.id:5
 MITRE ATT&CK: T1110 (Brute Force); opcional: T1548.003 (Sudo).
 
 ## Evidências
-![Eventos de falha de login no Kali](img/kali_ssh_fail_events.png)
+![Eventos de falha de login no Kali](wazuh_kali_ssh_logs.png)
 
 ## Ações de resposta sugeridas
 - Endurecer sshd_config (ex.: MaxAuthTries 3, PermitRootLogin no)
