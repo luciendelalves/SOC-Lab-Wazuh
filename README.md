@@ -58,6 +58,8 @@ Abaixo está o print do painel inicial do Wazuh após a configuração:
 Após a instalação e configuração, os agentes Windows e Kali aparecem como ativos no Wazuh:
 
 ![Agentes ativos](docs/agents_ativos.png)
+> 🔒 Alguns endereços IP foram ocultados propositalmente nos prints por questões de privacidade, mantendo apenas as informações relevantes para demonstração do projeto.
+
 
 ### Primeiros eventos coletados no Kali (SSH)
 
