@@ -81,7 +81,7 @@ Após a configuração do agente no Windows para monitorar eventos de segurança
 - Falhas de autenticação (Event ID 4625).
 
 **Exemplo de eventos capturados no Windows:**
-![Logs de Logon no Windows](docs/wazuh_windows_logon_logs.png)
+![Logs de Logon no Windows](docs/win_4625_events.png)
 
 ---
 
