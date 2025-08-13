@@ -36,7 +36,7 @@ agent.name:"windows" AND win.system.eventID:4625
 
 ## Evidências
 
-![Eventos de falha de login no Windows](img/win_4625_events.png)
+![Eventos de falha de login no Windows](win_4625_events.png)
 
 ---
 

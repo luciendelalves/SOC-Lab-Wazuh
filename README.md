@@ -99,9 +99,11 @@ Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o W
 ---
 
 ## 📌 Próximos Passos
-- Finalizar instalação do **Ubuntu Server 22.04 LTS**.
-- Instalar e configurar o **Wazuh**.
-- Adicionar os endpoints e iniciar testes de segurança.
+- Criar Cenário 03 — Simulação de varredura de portas no Kali e detecção no Wazuh.
+- Criar Cenário 04 — Alterações críticas no sistema (ex.: criação de usuário suspeito) e monitoramento.
+- Implementar regras adicionais de hardening no Ubuntu Server e no Windows.
+- Testar integração do Wazuh com envio de alertas por e-mail e/ou Slack.
+- Criar dashboards personalizados no Kibana para visualização dos alertas.
 
 ---
 
