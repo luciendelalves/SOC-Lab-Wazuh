@@ -72,6 +72,10 @@ Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o W
 **Exemplo de eventos capturados no Kali:**
 ![Logs de SSH no Kali](docs/wazuh_kali_ssh_logs.png)
 
+## Simulações
+- [Cenário 01 — Falhas de login SSH no Kali](docs/03-simulacoes/01-ssh-falhas-kali.md)
+
+---
 
 1. Configuração das VMs no VirtualBox.
 2. Instalação do Ubuntu Server e configuração de rede.
@@ -85,12 +89,12 @@ Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o W
 
 ## 📂 Status Atual
 - [x] Criação do repositório no GitHub.
-- [ ] Configuração das VMs no VirtualBox.
-- [ ] Instalação do Ubuntu Server 22.04 LTS.
-- [ ] Instalação do Wazuh.
-- [ ] Conexão do agente Windows.
-- [ ] Simulação de ataques e geração de alertas.
-- [ ] Documentação final com prints.
+- [x] Configuração das VMs no VirtualBox.
+- [x] Instalação do Ubuntu Server 22.04 LTS.
+- [x] Instalação do Wazuh.
+- [x] Conexão do agente Windows.
+- [x] Simulação de ataques e geração de alertas.
+- [x] Documentação final com prints.
 
 ---
 
