@@ -54,6 +54,12 @@ Abaixo está o print do painel inicial do Wazuh após a configuração:
 
 ![Painel Inicial Wazuh](docs/wazuh_painel_inicial.png)
 
+### Agentes Conectados
+Após a instalação e configuração, os agentes Windows e Kali aparecem como ativos no Wazuh:
+
+![Agentes ativos](docs/agents_ativos.png)
+
+
 1. Configuração das VMs no VirtualBox.
 2. Instalação do Ubuntu Server e configuração de rede.
 3. Instalação do Wazuh e serviços associados.
