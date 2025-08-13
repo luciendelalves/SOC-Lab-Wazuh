@@ -59,6 +59,17 @@ Após a instalação e configuração, os agentes Windows e Kali aparecem como a
 
 ![Agentes ativos](docs/agents_ativos.png)
 
+### Primeiros eventos coletados no Kali (SSH)
+
+Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o Wazuh passou a registrar eventos de:
+- Tentativas de brute force via SSH.
+- Tentativas de login com usuário inexistente.
+- Falhas de autenticação.
+- Uso de privilégios administrativos (`sudo`).
+
+**Exemplo de eventos capturados no Kali:**
+![Logs de SSH no Kali](docs/wazuh_kali_ssh_logs.png)
+
 
 1. Configuração das VMs no VirtualBox.
 2. Instalação do Ubuntu Server e configuração de rede.
