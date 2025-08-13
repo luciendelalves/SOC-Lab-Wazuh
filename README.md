@@ -71,8 +71,22 @@ Após a configuração do agente no Kali para monitorar `/var/log/auth.log`, o W
 **Exemplo de eventos capturados no Kali:**
 ![Logs de SSH no Kali](docs/wazuh_kali_ssh_logs.png)
 
+---
+
+### Primeiros eventos coletados no Windows (RDP/Logon)
+
+Após a configuração do agente no Windows para monitorar eventos de segurança, o Wazuh passou a registrar eventos de:
+- Tentativas de login com usuário inexistente.
+- Tentativas de login com senha incorreta.
+- Falhas de autenticação (Event ID 4625).
+
+**Exemplo de eventos capturados no Windows:**
+![Logs de Logon no Windows](docs/wazuh_windows_logon_logs.png)
+
+---
+
 ## Simulações
-- [Cenário 01 — Falhas de login SSH no Kali](docs/03-simulacoes/01-ssh-falhas-kali.md)
+- [Cenário 01 — Falhas de login SSH no Kali](docs/03-simulacoes/01-ssh-falhas-kali.md)  
 - [Cenário 02 — Falhas de login no Windows](docs/03-simulacoes/02-windows-falhas-login.md)
 
 ---
