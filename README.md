@@ -91,6 +91,23 @@ Após a configuração do agente no Windows para monitorar eventos de segurança
 **Exemplo de eventos capturados no Windows:**  
 ![Logs de Logon no Windows](docs/win_4625_events.png)
 
+### Monitoramento de Integridade de Arquivos (FIM)
+
+Após corrigir a configuração do agente no Kali (remoção de seções duplicadas de `<syscheck>`), o Wazuh passou a registrar alterações em arquivos monitorados.
+
+Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente enviou os eventos de **File Integrity Monitoring** para o servidor.  
+
+**Exemplo de eventos capturados no Dashboard:**  
+![Evento de FIM detectado no Kali](docs/fim_demo_event.png)
+
+**Detalhes dos eventos:**
+- **Agente:** Kali  
+- **Arquivo monitorado:** `/etc/fim_demo`  
+- **Evento:** modified  
+- **Descrição:** Integrity checksum changed.  
+
+> ✅ O módulo **Syscheck** do Wazuh está ativo e funcional, registrando mudanças críticas em diretórios sensíveis.
+
 ---
 
 ## 🎯 Simulações
