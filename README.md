@@ -108,6 +108,8 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 
 > ✅ O módulo **Syscheck** do Wazuh está ativo e funcional, registrando mudanças críticas em diretórios sensíveis.
 
+📄 [Veja o passo a passo completo da configuração](docs/03-simulacoes/03-fim-kali.md)
+
 ---
 
 ## 🎯 Simulações
