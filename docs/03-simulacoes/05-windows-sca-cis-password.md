@@ -12,5 +12,7 @@ No experimento abaixo, o agente Windows foi analisado e as seguintes verificaç�
 Essas falhas indicam que a configuração atual não atende às recomendações de segurança do **CIS Benchmark**, reduzindo a resiliência contra ataques de força bruta e uso de credenciais fracas.
 
 ## Query utilizada
-```dql
+
 agent.name:"DESKTOP-6LSC6V0" AND rule.groups:"sca" AND data.sca.policy:"CIS Microsoft Windows 10 Enterprise Benchmark v1.12.0"
+
+![Evidência](evento_sca_cis_password_policy)
