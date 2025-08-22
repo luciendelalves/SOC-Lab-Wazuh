@@ -41,13 +41,13 @@ data.win.system.eventID:(4624 OR 4634)
 # Lock/Unlock
 data.win.system.eventID:(4800 OR 4801)
 
-
 # Explicação
-O bloqueio e desbloqueio da estação geraram eventos de segurança que foram capturados pelo agente do Wazuh e enviados ao servidor.  
-Esses eventos são essenciais em operações de SOC, pois permitem:
+O bloqueio e desbloqueio da estação geraram eventos de segurança capturados pelo agente do Wazuh
+e enviados ao servidor. Esses eventos são importantes em operações de SOC, pois permitem:
 
-- Monitorar acessos em horários incomuns.  
-- Detectar tentativas de login suspeitas.  
-- Validar sessões de usuário legítimas.  
+- Monitorar acessos em horários incomuns
+- Detectar tentativas de login suspeitas
+- Validar sessões de usuário legítimas
 
-✅ Resultado: O Wazuh SIEM foi capaz de identificar e classificar corretamente os eventos de bloqueio e desbloqueio de sessão no Windows.
+Resultado: O Wazuh SIEM foi capaz de identificar e classificar corretamente
+os eventos de bloqueio e desbloqueio de sessão no Windows.
