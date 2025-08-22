@@ -27,11 +27,8 @@ No Wazuh Dashboard, os eventos foram exibidos com as seguintes descrições:
 📸 **Evidência**  
 ![Evento Logon 4624](evento_logon_4624.png)
 
----
-
 ## 🔎 Consultas no Wazuh (DQL) + Explicação
 
-```dql
 # Filtrar pelo agente Windows
 agent.name:"WIN10-LAB"
 
