@@ -29,6 +29,7 @@ No Wazuh Dashboard, os eventos foram exibidos com as seguintes descrições:
 
 ## 🔎 Consultas no Wazuh (DQL) + Explicação
 
+```dql
 # Filtrar pelo agente Windows
 agent.name:"WIN10-LAB"
 
