@@ -114,7 +114,8 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 
 ## 🎯 Simulações
 - [Cenário 01 — Falhas de login SSH no Kali](docs/03-simulacoes/01-ssh-falhas-kali.md)  
-- [Cenário 02 — Falhas de login no Windows](docs/03-simulacoes/02-windows-falhas-login.md)
+- [Cenário 02 — Falhas de login no Windows](docs/03-simulacoes/02-windows-falhas-login.md)  
+- [Cenário 03 — Bloqueio/Desbloqueio de Sessão no Windows (Win+L)](docs/03-simulacoes/03-windows-lock-unlock.md)
 
 ---
 
@@ -130,8 +131,8 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 ---
 
 ## 📌 Próximos Passos
-- Criar Cenário 03 — Simulação de varredura de portas no Kali e detecção no Wazuh.
-- Criar Cenário 04 — Alterações críticas no sistema (ex.: criação de usuário suspeito) e monitoramento.
+- Criar Cenário 04 — Simulação de varredura de portas no Kali e detecção no Wazuh.
+- Criar Cenário 05 — Alterações críticas no sistema (ex.: criação de usuário suspeito) e monitoramento.
 - Implementar regras adicionais de hardening no Ubuntu Server e no Windows.
 - Testar integração do Wazuh com envio de alertas por e-mail e/ou Slack.
 - Criar dashboards personalizados no Kibana para visualização dos alertas.
@@ -140,4 +141,4 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 
 ## ✍️ Autor
 **Luciendel Alves**  
-Estudante de Cibersegurança | Foco em SOC e Blue Team  
+Estudante de Cibersegurança | Foco em SOC e Blue Team
