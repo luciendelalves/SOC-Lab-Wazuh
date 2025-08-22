@@ -29,17 +29,16 @@ No Wazuh Dashboard, os eventos foram exibidos com as seguintes descrições:
 
 ## 🔎 Consultas no Wazuh (DQL) + Explicação
 
-```dql
-# Filtrar pelo agente Windows
+## Filtrar pelo agente Windows
 agent.name:"WIN10-LAB"
 
-# Logon/Logoff
+## Logon/Logoff
 data.win.system.eventID:(4624 OR 4634)
 
-# Lock/Unlock
+## Lock/Unlock
 data.win.system.eventID:(4800 OR 4801)
 
-# Explicação
+## Explicação
 O bloqueio e desbloqueio da estação geraram eventos de segurança capturados pelo agente do Wazuh
 e enviados ao servidor. Esses eventos são importantes em operações de SOC, pois permitem:
 
