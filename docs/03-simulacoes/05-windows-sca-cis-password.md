@@ -15,4 +15,4 @@ Essas falhas indicam que a configuração atual não atende às recomendações 
 
 agent.name:"DESKTOP-6LSC6V0" AND rule.groups:"sca" AND data.sca.policy:"CIS Microsoft Windows 10 Enterprise Benchmark v1.12.0"
 
-![Evidência](evento_sca_cis_password_policy)
+![Evidência](evento_sca_cis_password_policy.png)
