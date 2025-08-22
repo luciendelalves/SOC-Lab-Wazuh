@@ -116,6 +116,7 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 - [Cenário 01 — Falhas de login SSH no Kali](docs/03-simulacoes/01-ssh-falhas-kali.md)  
 - [Cenário 02 — Falhas de login no Windows](docs/03-simulacoes/02-windows-falhas-login.md)  
 - [Cenário 03 — Bloqueio/Desbloqueio de Sessão no Windows (Win+L)](docs/03-simulacoes/03-windows-lock-unlock.md)
+- [Cenário 04 — Auditoria de Políticas de Senha via CIS Benchmark](docs/03-simulacoes/05-windows-sca-cis-password.md)
 
 ---
 
