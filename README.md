@@ -132,15 +132,6 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 
 ---
 
-## 📌 Próximos Passos
-- Criar Cenário 04 — Simulação de varredura de portas no Kali e detecção no Wazuh.
-- Criar Cenário 05 — Alterações críticas no sistema (ex.: criação de usuário suspeito) e monitoramento.
-- Implementar regras adicionais de hardening no Ubuntu Server e no Windows.
-- Testar integração do Wazuh com envio de alertas por e-mail e/ou Slack.
-- Criar dashboards personalizados no Kibana para visualização dos alertas.
-
----
-
 ## ✍️ Autor
 **Luciendel Alves**  
 Estudante de Cibersegurança | Foco em SOC e Blue Team
