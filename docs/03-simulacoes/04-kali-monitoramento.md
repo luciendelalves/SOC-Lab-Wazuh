@@ -24,7 +24,7 @@ Validar a coleta de eventos do agente Wazuh instalado no Kali Linux, monitorando
 ---
 
 ## 📷 Evidência  
-![Eventos do Kali no Wazuh](docs/wazuh_kali_eventos.png)
+![Eventos do Kali no Wazuh](wazuh_kali_eventos.png)
 
 ---
 
