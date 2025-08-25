@@ -121,14 +121,29 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 
 ---
 
-## 📂 Status Atual
-- [x] Criação do repositório no GitHub.
-- [x] Configuração das VMs no VirtualBox.
-- [x] Instalação do Ubuntu Server 22.04 LTS.
-- [x] Instalação do Wazuh.
-- [x] Conexão do agente Windows.
-- [x] Simulação de ataques e geração de alertas.
-- [x] Documentação final com prints.
+## 📌 Resultado Final
+
+O **SOC Lab com Wazuh SIEM** foi finalizado com sucesso, integrando agentes **Windows** e **Linux**, e registrando eventos reais em cenários de segurança simulados.  
+
+### 🔎 Principais Resultados
+- O agente **Windows** capturou eventos de logon, logoff, falhas de autenticação (Event ID 4625), bloqueio/desbloqueio de sessão e auditoria de políticas de senha.  
+- O agente **Kali Linux** registrou falhas de login via SSH, uso de privilégios administrativos (`sudo`), instalação de pacotes (`dpkg`) e monitoramento de integridade de arquivos (FIM).  
+- Todos os eventos foram centralizados e analisados no **Wazuh Dashboard**, validando a coleta e correlação em tempo real.  
+
+### 📷 Evidência Final
+![Eventos do Kali no Wazuh](docs/03-simulacoes/wazuh_kali_eventos.png)
+
+---
+
+## ✅ Conclusão
+
+O laboratório demonstrou na prática como configurar um ambiente de monitoramento de segurança utilizando o **Wazuh SIEM**, reforçando habilidades essenciais para atuação em SOC:  
+- Instalação e configuração de SIEM.  
+- Integração de agentes Windows e Linux.  
+- Simulação e análise de incidentes.  
+- Documentação técnica e comunicação de resultados.  
+
+🚀 Este projeto consolida uma base prática para portfólio profissional e abre espaço para a evolução com novas ferramentas open source, como **ELK Stack, Suricata e TheHive**, em futuros projetos.
 
 ---
 
