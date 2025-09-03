@@ -119,7 +119,8 @@ Foi criado o arquivo `/etc/fim_demo` no Kali e, após modificações, o agente e
 - [Cenário 04 — Monitoramento de Atividades no Kali Linux](docs/03-simulacoes/04-kali-monitoramento.md)  
 - [Cenário 05 — Auditoria de Políticas de Senha via CIS Benchmark](docs/03-simulacoes/05-windows-sca-cis-password.md)  
 - [Cenário 06 — Brute Force SSH Automatizado no Kali](docs/03-simulacoes/06-ssh-bruteforce-kali.md)  
-
+- [Cenário 07 — Dashboard de Autenticação SSH](docs/03-simulacoes/07-ssh-dashboard.md)  
+  
 ---
 
 ## 📌 Resultado Final
